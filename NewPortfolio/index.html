@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ab5851d84a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo3.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#services">Projects</a></li>
+                    <li><a href="#portfolio">Mission</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Developer</p>
+                <h1>Hi,I'm <span>Tejaswini</span><br> Kolhekar From India</h1>
+            </div>
+        </div>
+    </div>
+    <!-- -----------about-------------- -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                   <img src="images/user2.jpg" alt="me">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Logical and organised individual with a strong foundation in software engineering. Proficient in Java,C#,Java Sript. Seeking to raise coding KPIs by providing error-free codes. Ability to translate business requirements into innovative software solutions. Excellent teamwork, interpersonal and communication skills. Looking to start a career as an entry-level professional with a reputed IT company.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('tools')">Tools</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Java Developer</span><br>Core Java with basic Oops concept</li>
+                            <li><span>J2Ee</span><br>JSP,Hibernate,Spring,Spring Boot</li>
+                            <li><span>.Net Developer</span><br>C#,Asp.net MVC,Asp.net core</li>
+                            <li><span>FrontEnd Developer</span><br>HTML,CSS,JavaSript,React js</li>
+                            <li><span>My-Sql</span><br>Database Query Languge</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="tools">
+                        <ul>
+                            <li><span>Visual Studio</span><br>The most comprehensive IDE for .NET and C++ developers on Windows</li>
+                            <li><span>Eclipse IDE</span><br>The Eclipse IDE is famous for our Java Integrated Development Environment (IDE)</li>
+                            <li><span>VS Code</span><br>Visual Studio Code is a lightweight but powerful source code editor used for languages html,css,JavaSript</li>
+                            <li><span>Git</span><br>Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>PG-DAC</span><br>Post Graduation Diploma In Advanced Computing(c-dac 2022)</li>
+                            <li><span>B.Tech</span><br>Shri GuruGobind Singhji IE & T Nanded(73%)</li>
+                            <li><span>HSC</span><br>Maharashtra State Board(71%) </li>
+                            <li><span>SSC</span><br>Maharashtra State Board(83%)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------------Services------------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Projects</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-react"></i>
+                    <h2>Online Car & Bike Rental System</h2>
+                    <p><Span>J2EE</Span></p>
+                    <p>The main objective of our project is to build a web application that will help Customers to book cars and bikes for rent in different cities, through our web application. Car & bike Owners can register their vehicles and can also get business. Maintaining transparency between Customers and Car owners for fair charges.
+                        Ensuring customer safety by providing Well trained and registered drivers.
+                    </p>
+                    <a href="https://github.com/tejaswinikolhekar/Ride-In-Gear">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>Online Employee Registration System</h2>
+                    <p><span>Asp.Net MVC</span></p>
+                    <p>This application is developed to maintain the information about personal details of their employees. Administrator will maintain the employee information,
+                        Delete employee and Update employee. In this system the administrator will issue a specific ID to the employee. The employee duty is to get registered in the system and submit his particulars. Feature of system are maintain employee information records including time sheet management and other features like generating salary report.                        
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---------------- experiences------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Mission</h1>
+            <div class="work-list">
+             <div class="work">
+                <img src="images/work1.jpg">
+                <div class="layer">
+                    <h3>Book Liabrary</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, quas fuga pariatur est incidunt, distinctio voluptate quasi vel odit, possimus optio eaque doloribus deleniti earum recusandae tenetur consectetur temporibus veniam!</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+             </div>
+             <div class="work">
+                <img src="images/work2.png">
+                <div class="layer">
+                    <h3>Course App</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, quas fuga pariatur est incidunt, distinctio voluptate quasi vel odit, possimus optio eaque doloribus deleniti earum recusandae tenetur consectetur temporibus veniam!</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+             </div>
+             <div class="work">
+                <img src="images/work3.jpg">
+                <div class="layer">
+                    <h3>Social Networking</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, quas fuga pariatur est incidunt, distinctio voluptate quasi vel odit, possimus optio eaque doloribus deleniti earum recusandae tenetur consectetur temporibus veniam!</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+             </div>
+            </div>
+             <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!----------------Contact--------- -------->
+
+    <div id="contact";
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fa-solid fa-share-from-square"></i> tejaswinikolhekar5@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>8355983204</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/tejaswini-kolhekar-b1352a252"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/tejaswinikolhekar"<i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="images/Resume@teju.doc" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                   <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your name" required>
+                    <input type="email" name="Email" placeholder="your email"required>
+                    <textarea name="Message" rows="6" placeholder="your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                  </form>
+                  <span id="msg">Hello</span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+           <p>Copyright <span>&copy;</span> Tejaswini.Made with <i class="fa-solid fa-hands-clapping"></i> by Tejaswini Kolhekar</p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyYYSRxYCUM2ERE3G1OiYOUBwREuIc1TI81XrX2jSV3tcvmuJWB8IReUwQJM-VOWCWd/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg"); 
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML= ""
+            },5000)
+            form.reset()
+        } )
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
+
+<!--   https://docs.google.com/spreadsheets/d/1xVAH2ZYPS6t58Lh2b2f1184dLaY9CuocsS9msRh6wjs/edit#gid=0     -->
+<!-- youtube link : https://www.youtube.com/watch?v=0YFrGy_mzjY&t=2160s     -->
+
+<!--   "I have designed a personal portfolio website using HTML, CSS, and JavaScript, which serves as my online resume or CV. The website includes essential information such as my name and designation. It features an image of me, details about my technical skills and the tools I use, as well as my educational background.
+
+Moreover, I've listed my projects and goals on the site to showcase my work and aspirations. In the website's footer, I've included my contact information and a contact form. The data submitted through this form is automatically recorded in my Google Sheets.
+
+Importantly, this website design is fully responsive, ensuring a seamless user experience on all screen devices, including mobile phones."    -->
